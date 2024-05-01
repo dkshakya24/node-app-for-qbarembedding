@@ -5,8 +5,10 @@ const {
 } = require("@aws-sdk/client-quicksight");
 
 const app = express();
-const port = process.env.PORT || 3000; // Use environment variable or default port
+const cors = require("cors");
 
+const port = process.env.PORT || 3000; // Use environment variable or default port
+app.use(cors());
 // Define API endpoints here (example)
 app.get("/api/data", (req, res) => {
   // Simulate some data
