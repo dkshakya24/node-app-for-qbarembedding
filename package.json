@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@aws-sdk/client-quicksight": "^3.554.0",
+    "@aws-sdk/client-quicksight": "^3.567.0",
     "express": "^4.19.2"
   }
 }
