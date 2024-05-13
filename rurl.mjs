@@ -9,7 +9,7 @@ import {
     UserArn:
       "arn:aws:quicksight:us-west-2:603640115098:user/default/deepak.kumar",
     ExperienceConfiguration: {
-      QNRESearchBar: {
+      GenerativeQnA: {
         InitialTopicId: "kjhkjhjh",
       },
     },
