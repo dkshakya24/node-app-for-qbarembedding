@@ -25,7 +25,7 @@ app.get("/generate-embed-url", async (req, res) => {
     const command = new GenerateEmbedUrlForRegisteredUserCommand({
       AwsAccountId: "603640115098",
       UserArn:
-        "arn:aws:quicksight:us-east-1:603640115098:user/default/deepak.kumar",
+        "arn:aws:quicksight:us-west-1:603640115098:user/default/deepak.kumar",
       ExperienceConfiguration: {
         QNRESearchBar: {
           InitialTopicId: "kjhkjhjh",
