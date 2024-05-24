@@ -19,13 +19,13 @@ app.get("/api/data", (req, res) => {
 app.get("/generate-embed-url", async (req, res) => {
   try {
     // Create QuickSight client
-    const client = new QuickSightClient({ region: "us-west-2" });
+    const client = new QuickSightClient({ region: "us-east-1" });
 
     // Construct command
     const command = new GenerateEmbedUrlForRegisteredUserCommand({
       AwsAccountId: "603640115098",
       UserArn:
-        "arn:aws:quicksight:us-west-2:603640115098:user/default/deepak.kumar",
+        "arn:aws:quicksight:us-east-1:603640115098:user/default/deepak.kumar",
       ExperienceConfiguration: {
         QNRESearchBar: {
           InitialTopicId: "kjhkjhjh",
