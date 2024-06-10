@@ -19,7 +19,7 @@ app.get("/api/data", (req, res) => {
 app.get("/generate-embed-url", async (req, res) => {
   try {
     // Create QuickSight client
-    const client = new QuickSightClient({ region: "us-east-1" });
+    const client = new QuickSightClient({ region: "us-west-2" });
 
     // Construct command
     const command = new GenerateEmbedUrlForRegisteredUserCommand({
